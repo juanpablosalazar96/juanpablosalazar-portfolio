@@ -37,6 +37,7 @@ function About() {
             width: "100%",
             height: "auto", // preserve aspect ratio
             objectFit: "cover",
+            objectPosition: "center +20px",
           }}
         />
       </div>
