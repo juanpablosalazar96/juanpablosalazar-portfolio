@@ -1,0 +1,35 @@
+.experience-section h2 {
+  text-align: center;
+  font-size: 2.5rem; /* Adjust size to match "Projects" */
+  font-weight: bold;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white; /* Ensures text is readable */
+  padding: 50px 0;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column; /* Stack the cards vertically */
+  align-items: center; /* Center the cards */
+  gap: 20px; /* Add spacing between cards */
+}
+
+.experience-card {
+  width: 80%; /* Increase width */
+  max-width: 800px; /* Limit max width */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.experience-card:hover {
+  transform: scale(1.02); /* Small zoom effect on hover */
+}
+
+.date {
+  font-weight: bold;
+  color: #555;
+}
